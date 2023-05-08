@@ -1,0 +1,203 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - google_mlkit_commons (0.2.0):
+    - Flutter
+    - MLKitVision
+  - google_mlkit_image_labeling (0.4.0):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/ImageLabeling (~> 3.1.0)
+    - GoogleMLKit/ImageLabelingCustom (~> 3.1.0)
+  - google_mlkit_pose_detection (0.4.0):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/PoseDetection (~> 3.1.0)
+    - GoogleMLKit/PoseDetectionAccurate (~> 3.1.0)
+  - GoogleDataTransport (9.2.2):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMLKit/ImageLabeling (3.1.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitImageLabeling (~> 2.1.0)
+  - GoogleMLKit/ImageLabelingCustom (3.1.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitImageLabelingCustom (~> 2.1.0)
+  - GoogleMLKit/MLKitCore (3.1.0):
+    - MLKitCommon (~> 7.0.0)
+  - GoogleMLKit/PoseDetection (3.1.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitPoseDetection (~> 1.0.0-beta9)
+  - GoogleMLKit/PoseDetectionAccurate (3.1.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitPoseDetectionAccurate (~> 1.0.0-beta9)
+  - GoogleToolboxForMac/DebugUtils (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - GoogleToolboxForMac/Defines (2.3.2)
+  - GoogleToolboxForMac/Logger (2.3.2):
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.3.2)":
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.3.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.3.2)
+    - GoogleToolboxForMac/Defines (= 2.3.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.3.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.3.2)"
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (7.11.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.1.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.7.2)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - MLImage (1.0.0-beta3)
+  - MLKitCommon (7.0.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitImageLabeling (2.1.0):
+    - MLKitCommon (~> 7.0)
+    - MLKitImageLabelingCommon (~> 4.1)
+    - MLKitVision (~> 4.1)
+    - MLKitVisionKit (~> 5.1)
+  - MLKitImageLabelingCommon (4.1.0):
+    - MLKitCommon (~> 7.0)
+    - MLKitVision (~> 4.1)
+  - MLKitImageLabelingCustom (2.1.0):
+    - MLKitCommon (~> 7.0)
+    - MLKitImageLabelingCommon (~> 4.1)
+    - MLKitVision (~> 4.1)
+    - MLKitVisionKit (~> 5.1)
+  - MLKitObjectDetectionCommon (4.1.0):
+    - MLKitCommon (~> 7.0)
+    - MLKitVision (~> 4.1)
+  - MLKitPoseDetection (1.0.0-beta9):
+    - MLKitCommon (~> 7.0)
+    - MLKitPoseDetectionCommon (= 1.0.0-beta9)
+    - MLKitXenoCommon (= 1.0.0-beta9)
+  - MLKitPoseDetectionAccurate (1.0.0-beta9):
+    - MLKitCommon (~> 7.0)
+    - MLKitPoseDetectionCommon (= 1.0.0-beta9)
+    - MLKitXenoCommon (= 1.0.0-beta9)
+  - MLKitPoseDetectionCommon (1.0.0-beta9):
+    - MLKitCommon (~> 7.0)
+    - MLKitXenoCommon (= 1.0.0-beta9)
+  - MLKitVision (4.1.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLImage (= 1.0.0-beta3)
+    - MLKitCommon (~> 7.0)
+    - Protobuf (~> 3.12)
+  - MLKitVisionKit (5.1.0):
+    - MLKitCommon (~> 7.0)
+    - MLKitImageLabelingCommon (~> 4.1)
+    - MLKitObjectDetectionCommon (~> 4.1)
+    - MLKitVision (~> 4.1)
+  - MLKitXenoCommon (1.0.0-beta9):
+    - MLKitCommon (~> 7.0)
+    - MLKitVision (~> 4.1)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - PromisesObjC (2.2.0)
+  - Protobuf (3.22.1)
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - Flutter (from `Flutter`)
+  - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
+  - google_mlkit_image_labeling (from `.symlinks/plugins/google_mlkit_image_labeling/ios`)
+  - google_mlkit_pose_detection (from `.symlinks/plugins/google_mlkit_pose_detection/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLImage
+    - MLKitCommon
+    - MLKitImageLabeling
+    - MLKitImageLabelingCommon
+    - MLKitImageLabelingCustom
+    - MLKitObjectDetectionCommon
+    - MLKitPoseDetection
+    - MLKitPoseDetectionAccurate
+    - MLKitPoseDetectionCommon
+    - MLKitVision
+    - MLKitVisionKit
+    - MLKitXenoCommon
+    - nanopb
+    - PromisesObjC
+    - Protobuf
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  Flutter:
+    :path: Flutter
+  google_mlkit_commons:
+    :path: ".symlinks/plugins/google_mlkit_commons/ios"
+  google_mlkit_image_labeling:
+    :path: ".symlinks/plugins/google_mlkit_image_labeling/ios"
+  google_mlkit_pose_detection:
+    :path: ".symlinks/plugins/google_mlkit_pose_detection/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 3125e8cd1a4387f6f31c6c63abb8a55892a9eeeb
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  google_mlkit_commons: e9070f57232c3a3e4bd42fdfa621bb1f4bb3e709
+  google_mlkit_image_labeling: 321983f0f243fa936bb34ec298df598290ce4a0d
+  google_mlkit_pose_detection: 85f892b3863bfabfd6ffda66729b5dafb2c00162
+  GoogleDataTransport: 8378d1fa8ac49753ea6ce70d65a7cb70ce5f66e6
+  GoogleMLKit: 9d072522949ff0ef4dae5359feaf3db2ef2fa658
+  GoogleToolboxForMac: 8bef7c7c5cf7291c687cf5354f39f9db6399ad34
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  GoogleUtilitiesComponents: 679b2c881db3b615a2777504623df6122dd20afe
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  MLImage: 489dfec109f21da8621b28d476401aaf7a0d4ff4
+  MLKitCommon: 20f4aca0ec2bb37cef2b9c211b50586817bac5d3
+  MLKitImageLabeling: 776cfc464c4d8597f4f4b5d56a9020921a3ad069
+  MLKitImageLabelingCommon: c375a2e9b87b614fe1614f003171455751f39371
+  MLKitImageLabelingCustom: 59e105e37963b56fd615ea9d886df294ffef9cfd
+  MLKitObjectDetectionCommon: 6cfa8926341cd835490b496116e2a1b797abf86e
+  MLKitPoseDetection: b277372e68c4d69122cc98925299ba0a19b2b157
+  MLKitPoseDetectionAccurate: 8e84f8fee3e77a47830adf8252fcf9b5c39c1825
+  MLKitPoseDetectionCommon: 46537ed5597b359f496470a7e5cc3bf5db4f55db
+  MLKitVision: 639a171d937241f3fcf92bc1b3ef8f179f49916c
+  MLKitVisionKit: fb450e1ec0b7194aa898bf26b47df897dad93773
+  MLKitXenoCommon: 319d30f77375ba4ff66279917b9657578f530bd6
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+  Protobuf: d7f7c8329edf5eb8af65547a8ba3e9c1cee927d5
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.12.0
